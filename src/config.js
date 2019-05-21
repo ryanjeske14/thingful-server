@@ -3,5 +3,6 @@ module.exports = {
   NODE_ENV: process.env.NODE_ENV || "development",
   DB_URL:
     process.env.DB_URL ||
-    "postgresql://dunder-mifflin:Office@localhost/thingful"
+    "postgresql://dunder-mifflin:Office@localhost/thingful",
+  JWT_SECRET: process.env.JWT_SECRET || "change-this-secret"
 };
